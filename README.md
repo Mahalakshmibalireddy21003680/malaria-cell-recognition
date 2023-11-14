@@ -1,28 +1,37 @@
-Deep Neural Network for Malaria Infected Cell Recognition
-AIM
+# EX-4 Deep Neural Network for Malaria Infected Cell Recognition
+
+## AIM
+
 To develop a deep neural network for Malaria infected cell recognition and to analyze the performance.
 
-Problem Statement and Dataset
+## Problem Statement and Dataset
 The Convolutional Neural Network method reduces the likelihood of overfitting by employing data augmentation. Thus, it was found that deep learning-based malaria detection systems outperformed most conventional methods in speed. To distinguish between the images of parasitized and uninfected smear blood cells, a convolutional neural network was created and taught via training. CNN is capable of extracting three types of image features: low-level, mid-level, and high-level features. These functions are used to extract the traditional picture features.
+## Neural Network Model
+<img width="748" alt="image" src="https://github.com/KoduruSanathKumarReddy/malaria-cell-recognition/assets/69503902/ad37b250-512d-45a7-babf-6fce8c133c65">
 
-Neural Network Model
-image
-DESIGN STEPS:
-STEP 1: Import tensorflow and preprocessing libraries
 
-STEP 2: Create an ImageDataGenerator to flow image data
 
-STEP 3: Build the convolutional neural network model and train the model
+## DESIGN STEPS:
 
-STEP 4: Evaluate the model with the testing data
+**STEP 1:** Import tensorflow and preprocessing libraries
 
-STEP 5: Fit the model
+**STEP 2:** Create an ImageDataGenerator to flow image data
 
-STEP 6: Plot the performance plot
+**STEP 3:** Build the convolutional neural network model and train the model
 
-PROGRAM
+**STEP 4:** Evaluate the model with the testing data
+
+**STEP 5:** Fit the model
+
+**STEP 6:** Plot the performance plot
+
+## PROGRAM
+
+~~~
 Developed by: Balireddy Mahalakshmi
 Registered No: 212221240008
+~~~
+~~~
 import os
 import pandas as pd
 import numpy as np
@@ -129,14 +138,29 @@ if x_single_prediction == 1:
 else:
     print("Parasitized")
 
-OUTPUT
-Training Loss, Validation Loss Vs Iteration Plot
-image
-Classification Report
-image
-Confusion Matrix
-image
-New Sample Data Prediction
-image
-RESULT
+~~~
+
+## OUTPUT
+
+### Training Loss, Validation Loss Vs Iteration Plot
+
+<img width="685" alt="image" src="https://github.com/KoduruSanathKumarReddy/malaria-cell-recognition/assets/69503902/09210495-7666-4e00-970b-d5cd9c6038f8">
+
+
+### Classification Report
+
+<img width="685" alt="image" src="https://github.com/KoduruSanathKumarReddy/malaria-cell-recognition/assets/69503902/069114fd-3da0-4051-b20c-f5c784c56a1d">
+
+
+### Confusion Matrix
+
+<img width="241" alt="image" src="https://github.com/KoduruSanathKumarReddy/malaria-cell-recognition/assets/69503902/878aed26-77bf-4355-b393-0f7df709885a">
+
+
+### New Sample Data Prediction
+
+<img width="351" alt="image" src="https://github.com/KoduruSanathKumarReddy/malaria-cell-recognition/assets/69503902/e38c627a-c3b9-483d-8a48-e68a7bcc8df4">
+
+
+## RESULT
 Thus, a deep neural network for Malaria infected cell recognized and analyzed the performance .
